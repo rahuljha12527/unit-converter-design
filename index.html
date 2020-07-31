@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>
+      Unit Converter
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <h1 class="unit-converter">Unit converter</h1>
+    <div class="container1">
+      <div class="container2 full">
+        <select id="inputType" class="full mr-1">
+          <option value="gram">Gram</option>
+          <option value="kilogram">kilogram</option>
+          <option value="milligram">milligram</option>
+          <option value="tons">tons</option>
+        </select>
+
+        <input type="text" placeholder="Input" id="input" class="full" />
+      </div>
+
+      <span class="rotate9">=</span>
+      <div class="container2 full">
+        <select id="resultType" class="full mr-1">
+          <option value="gram">Gram</option>
+          <option value="kilogram">kilogram</option>
+          <option value="milligram">milligram</option>
+          <option value="tons">tons</option>
+        </select>
+
+        <input type="text" placeholder="Result" id="result" class="full" />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
